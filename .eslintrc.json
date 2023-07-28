@@ -5,7 +5,7 @@
     {
       "files": ["*.ts"],
       "parserOptions": {
-        "project": ["tsconfig.json"],
+        "project": ["D:/Internship/Ionic/27_7/ionicComponents/tsconfig.json"],
         "createDefaultProgram": true
       },
       "extends": [

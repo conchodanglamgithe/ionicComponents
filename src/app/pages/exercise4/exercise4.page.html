@@ -1,0 +1,42 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home" mode="ios"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Exercise4</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Exercise4</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-grid>
+    <ion-row>
+      <ion-col size="0"></ion-col>
+      <ion-col size="12">
+        <ion-button expand="block" color="secondary">Card 1</ion-button>
+      </ion-col>
+      <ion-col size="1"></ion-col>
+    </ion-row>
+    <ion-row></ion-row>
+    <ion-row>
+      <ion-col offset="4">
+        <ion-button color="warning" expand="block">Button 1</ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button  color="danger" expand="block">Button 2</ion-button>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="8">
+        <ion-input type="text" padding="0 20px" placeholder="Type here..."/>
+      </ion-col>
+      <ion-col size="4">
+        <ion-button expand="full">Search</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      Ionic Components
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,12 +9,49 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
+      <ion-title size="large">Ionic Components</ion-title>
     </ion-toolbar>
   </ion-header>
 
   <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Ionics Cards</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-button [routerLink]="['/sample-page1']">Ionic card</ion-button>
+        <ion-button [routerLink]="['/sample-page2']">Media Card</ion-button>
+        <ion-button [routerLink]="['/sample-page3']">List Card</ion-button>
+        <ion-button [routerLink]="['/sample-page4']">Style Card</ion-button>
+        <ion-button [routerLink]="['/exercise1']" color="success" >Exercise 1</ion-button>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Ionic Grid</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-button [routerLink]="['/exercise4']" color="success">Exercise 4</ion-button>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Ionic Actionsheet</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-button [routerLink]="['/sample-page5']">Action sheet</ion-button>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Ionic Alert</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-button [routerLink]="['/sample-page6']">Alert</ion-button>
+        <ion-button [routerLink]="['/sample-page8']">Prompt Alert</ion-button>
+        <ion-button [routerLink]="['/exercise6']" color="success">Exercise 6</ion-button>
+      </ion-card-content>
+    </ion-card>
+    
   </div>
 </ion-content>
