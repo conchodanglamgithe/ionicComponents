@@ -51,6 +51,10 @@ const routes: Routes = [
   {
     path: 'exercise6',
     loadChildren: () => import('./pages/exercise6/exercise6.module').then( m => m.Exercise6PageModule)
+  },
+  {
+    path: 'sample-page12',
+    loadChildren: () => import('./pages/sample-page12/sample-page12.module').then( m => m.SamplePage12PageModule)
   }
 ];
 
